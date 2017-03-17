@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="adde0278-061b-4ee7-982d-243fba94e8b5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://timbrado.facturarenlinea.com/WSTFD.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WSTFD.xsd" MetadataType="Schema" ID="d091f840-a0cc-430a-bfe4-d0d2bc60bba7" SourceId="1" SourceUrl="https://timbrado.facturarenlinea.com/WSTFD.svc?xsd=xsd1" />
+    <MetadataFile FileName="WSTFD.wsdl" MetadataType="Wsdl" ID="e96421c1-164b-4a5e-93d0-0d053d4737d5" SourceId="1" SourceUrl="https://timbrado.facturarenlinea.com/WSTFD.svc?wsdl" />
+    <MetadataFile FileName="WSTFD1.xsd" MetadataType="Schema" ID="5b03693a-fee7-45ab-9fe6-c21f10831ea2" SourceId="1" SourceUrl="https://timbrado.facturarenlinea.com/WSTFD.svc?xsd=xsd0" />
+    <MetadataFile FileName="WSTFD2.xsd" MetadataType="Schema" ID="c647cf72-f104-4e76-b6f4-b79a8d03f3cc" SourceId="1" SourceUrl="https://timbrado.facturarenlinea.com/WSTFD.svc?xsd=xsd3" />
+    <MetadataFile FileName="WSTFD3.xsd" MetadataType="Schema" ID="f853b6af-451b-487d-9caf-5d6d6fd6556b" SourceId="1" SourceUrl="https://timbrado.facturarenlinea.com/WSTFD.svc?xsd=xsd2" />
+    <MetadataFile FileName="WSTFD.disco" MetadataType="Disco" ID="d31780e1-9cd5-40e9-80b3-74d10f72f368" SourceId="1" SourceUrl="https://timbrado.facturarenlinea.com/WSTFD.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
